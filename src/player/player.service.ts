@@ -18,6 +18,12 @@ export class PlayerService {
       direccion: 'Jipijapa',
       eliminado: false,
     },
+    {
+      id: 3,
+      nombre: 'Dayana ',
+      direccion: 'Portoviejo',
+      eliminado: false,
+    },
   ];
 
   create(createPlayerDto: CreatePlayerDto) {
